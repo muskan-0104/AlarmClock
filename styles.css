@@ -1,0 +1,104 @@
+body{
+    background-color: #8403fc;
+    font-family: "Orbitron";
+    color: white;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clock{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+
+.time{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.time h1{
+    border-radius: 10%;
+    background-color: black;
+}
+.time h3{
+    margin: 5%;
+}
+hr{
+    width: 70%;
+    color: white;
+}
+.alarms{
+    width: 80%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.alarms h1,h2,h3,p{
+    margin-left: -50%;
+}
+#addAlarm{
+width: 50px;
+height: 50px;
+transition: width 0.2s, height 0.2s;
+}
+#addAlarm:hover{
+    width: 55px;
+    height: 55px;
+}
+
+#setAlarm{
+    display: none;
+    flex-direction: row;
+}
+#setAlarm  button{
+    background-color: black;
+    margin:0% 10%;
+}
+input[type=time] {
+    border: none;
+    color: #2a2c2d;
+    font-size: 20px;
+    font-family: Orbitron;
+    width: 250px;
+    height: 50px;
+  }
+
+#createAlarm {
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+ }
+ #alarmList{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    color: white;
+ }
+ .list{
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    border: 0.5px solid white;
+    padding: 2% 5%;
+    align-items: center;
+ }
+ .list p{
+    font-size: 25px;
+    margin-left: 10%;
+ }
+ .list .btn{
+    background-color: black;
+    margin-left: 60%;
+ }
